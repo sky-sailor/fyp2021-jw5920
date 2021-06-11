@@ -75,5 +75,6 @@ fig, ax = plt.subplots()
 ax.plot(ppg_data.signals[0][trough_list[0]:trough_list[1]])
 plt.show()
 
-computed_sqi = sqi_hl.compute_all_SQI(signal=ppg_data.signals[0], segments=ppg_data.segments[0], raw_signal=raw_signal[0], primary_peakdet=7, secondary_peakdet=6, template_type=0)
+computed_sqi = sqi_hl.compute_all_SQI(signal=ppg_data.signals[0], segments=ppg_data.segments[0],
+                                      raw_signal=raw_signal[0], primary_peakdet=7, secondary_peakdet=6, template_type=0)
 print(computed_sqi[2])
