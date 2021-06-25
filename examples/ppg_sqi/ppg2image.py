@@ -64,3 +64,4 @@ plt.show()
 # 3.2 SQIs
 # one image for each segment, and different images have the same SQI in corresponding positions. Different SQIs
 # take different areas (large or small).
+
