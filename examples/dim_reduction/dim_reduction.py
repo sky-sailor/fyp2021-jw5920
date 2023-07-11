@@ -36,9 +36,9 @@ sqi = sqi.iloc[:, 3:3 + n_sqi]
 # sqi = std_scaler.fit_transform(sqi)
 
 # Compute pairwise correlation of 7 SQIs
-# corr_pearson = sqi.corr(method='pearson')
-# corr_kendall = sqi.corr(method='kendall')
-# corr_spearman = sqi.corr(method='spearman')
+corr_pearson = sqi.corr(method='pearson')
+corr_kendall = sqi.corr(method='kendall')
+corr_spearman = sqi.corr(method='spearman')
 
 # %%
 # NOW let's play with the model and hyperparameters
