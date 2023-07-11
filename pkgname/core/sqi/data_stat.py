@@ -1,5 +1,5 @@
 """
-Description of the Dataset (size, mean, std)
+Describe the Dataset (size, mean, std)
 Signal analysis and classification of photoplethysmography (PPG) waveforms for predicting clinical outcomes
 """
 
