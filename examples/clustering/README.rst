@@ -1,4 +1,3 @@
-Clustering via SQI
+Clustering of SQI Features
 ==================
-
-Below is a gallery of examples
+Preliminary practice of clustering algorithms: K-Means and DBSCAN
